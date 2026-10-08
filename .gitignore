@@ -1,0 +1,15 @@
+﻿# VS Code configuration
+.vscode/
+**/.vscode/
+
+# Build and compiler output
+build/
+**/build/
+*.o
+*.obj
+*.exe
+*.out
+*.pdb
+*.ilk
+*.map
+*.exp
