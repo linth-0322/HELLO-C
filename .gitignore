@@ -1,15 +1,15 @@
-﻿# VS Code configuration
-.vscode/
-**/.vscode/
+﻿File: .gitignore
+````````
+# Ignore everything
+*
 
-# Build and compiler output
-build/
-**/build/
-*.o
-*.obj
-*.exe
-*.out
-*.pdb
-*.ilk
-*.map
-*.exp
+# Except directories
+!*/
+
+# And .c files
+!*.c
+!**/*.c
+
+# And the .gitignore file itself
+!.gitignore
+
