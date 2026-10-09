@@ -1,13 +1,13 @@
 ﻿#include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+
 int main(){
-    srand(1);
+    srand((unsigned int)time(NULL));
     int i;
     for(i=1;i<=10;i++){
-        int num = rand();
+        int num = 5+rand()%45;
         printf("%d ",num);
     }
-    printf("你好");
     return 0;
 }
