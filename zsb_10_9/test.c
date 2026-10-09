@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 
+// 生成5-49的随机数；5+rand()%(49+1-5)
 int main(){
     srand((unsigned int)time(NULL));
     int i;
