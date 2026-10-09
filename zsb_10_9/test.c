@@ -1,4 +1,4 @@
-#include<stdio.h>
+﻿#include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
 int main(){
@@ -8,5 +8,6 @@ int main(){
         int num = rand();
         printf("%d ",num);
     }
+    printf("你好");
     return 0;
 }
