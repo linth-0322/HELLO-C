@@ -1,7 +1,12 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 int main(){
-    int a=10;
-    int b=20;
-    printf("Sum: %d\n", a+b);
+    srand(1);
+    int i;
+    for(i=1;i<=10;i++){
+        int num = rand();
+        printf("%d ",num);
+    }
     return 0;
 }
