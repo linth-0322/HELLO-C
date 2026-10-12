@@ -18,7 +18,7 @@ int binarySeach(int arr[], int len, int num)
 	int min = 0;
 	int max = len - 1;
 	while (min <= max) {
-		int mid = (min + max) / 2;
+		int mid = min + (max - min) / 2;
 		// while (min <= max && num >= arr[min] && num <= arr[max])
 		// int mid = min + (num - arr[min]) * (max - min) / (arr[max] - arr[min]); 插值查找
 		if (arr[mid] < num)
