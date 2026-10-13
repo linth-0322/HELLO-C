@@ -2,18 +2,18 @@
 #include<stdio.h>
 
 //// 二分查找
-//int binarySeach(int arr[], int len, int num);
+//int binarySearch(int arr[], int len, int num);
 //int main() {
 //	int arr[] = { 53,59,61,63,65,67,69 };
 //	int len = sizeof(arr) / sizeof(arr[0]);
 //	int num;
 //	scanf("%d", &num);
-//	int index = binarySeach(arr, len, num);
+//	int index = binarySearch(arr, len, num);
 //	printf("%d %d", index, arr[index]);
 //	return 0;
 //}
 //
-//int binarySeach(int arr[], int len, int num) 
+//int binarySearch(int arr[], int len, int num) 
 //{
 //	int min = 0;
 //	int max = len - 1;
