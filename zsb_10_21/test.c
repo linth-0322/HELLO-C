@@ -49,3 +49,12 @@
 //		printf("%.2f ", a[i]);
 //	}
 //}
+
+
+// BC2 我是大V
+int main() {
+    printf("v   v\n");
+    printf(" v v\n");
+    printf("  v\n");
+    return 0;
+}
