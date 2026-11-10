@@ -1,4 +1,4 @@
-﻿File: .gitignore
+File: .gitignore
 ````````
 # Ignore everything
 *
@@ -12,4 +12,8 @@
 
 # And the .gitignore file itself
 !.gitignore
+
+# And .gitkeep placeholders (keeps empty folders on GitHub)
+!.gitkeep
+!**/.gitkeep
 
