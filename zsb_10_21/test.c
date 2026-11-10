@@ -51,10 +51,10 @@
 //}
 
 
-// BC2 我是大V
-int main() {
-    printf("v   v\n");
-    printf(" v v\n");
-    printf("  v\n");
-    return 0;
-}
+//// BC2 我是大V
+//int main() {
+//    printf("v   v\n");
+//    printf(" v v\n");
+//    printf("  v\n");
+//    return 0;
+//}

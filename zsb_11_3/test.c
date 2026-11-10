@@ -35,19 +35,30 @@
 //}
 
 
-// 1-99的同构数
-// 5的平方是25，5是25右边的数，这种为同构数
-int main() {
-	int num, square;
-	for (num = 1;num < 100;num++) {
-		square = num * num;
-		if (num < 10 && square % 10 == num) {
-			printf("%d的平方是%d,是同构数\n", num,square);
-		}
-		else
-			if (square % 100 == num) {
-				printf("%d的平方是%d,是同构数\n", num,square);
-			}
-	}
-	return 0;
-}
+//// 1-99的同构数
+//// 5的平方是25，5是25右边的数，这种为同构数
+//int main() {
+//	int num, square;
+//	for (num = 1;num < 100;num++) {
+//		square = num * num;
+//		if (num < 10 && square % 10 == num) {
+//			printf("%d的平方是%d,是同构数\n", num,square);
+//		}
+//		else
+//			if (square % 100 == num) {
+//				printf("%d的平方是%d,是同构数\n", num,square);
+//			}
+//	}
+//	return 0;
+//}
+
+
+
+//// 两个整数判断大小
+//int main() {
+//	int a, b;
+//	scanf("%d %d", &a, &b);
+//	printf("%d\n", a > b ? a : b);
+//	printf("%%");
+//	return 0;
+//}
