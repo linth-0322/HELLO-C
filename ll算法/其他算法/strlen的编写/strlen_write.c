@@ -28,20 +28,20 @@
 //	return 0;
 //}
 
-// 3.用末指针-首指针
-int my_strlen(char* p){
-	char* p1 = p;
-	char* p2 = p;
-	while(*p2){
-		p2++;
-	}
-	return p2-p1;
-}
-
-int main(){
-	char arr[] = "abcdefg";
-	int len = my_strlen(arr);
-	printf("%d\n",len);
-	return 0;
-}
+//// 3.用末指针-首指针
+//int my_strlen(char* p){
+//	char* p1 = p;
+//	char* p2 = p;
+//	while(*p2){
+//		p2++;
+//	}
+//	return p2-p1;
+//}
+//
+//int main(){
+//	char arr[] = "abcdefg";
+//	int len = my_strlen(arr);
+//	printf("%d\n",len);
+//	return 0;
+//}
 
